@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-decoration: none;
+
+
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(./assets/depositphotos_582486906-stock-photo-male-worker-inspection-steel-long.jpg);
+    background-size: cover;
+    background-position: center;
+}
+ .containerLogin{
+    box-shadow: -3px -3px 20px 14px #aaa9a9a2, 3px 3px 9px 3px rgba(147, 149, 151, 0.671);
+
+    position: relative;
+    width: 100%;
+    max-width: 450px;
+    height: 350px;
+    background: transparent;
+    border-radius: 20px;
+    border: 2px solid rgba(275,275,275,0.7);
+    backdrop-filter: blur(20px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+ }
+ .main-boxLogin h1{
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    color: #ffff;
+}
+.input-boxLogin{
+    position: relative;
+    height: 52px;
+    width: 100%;
+    border-bottom: 2px solid #fff;
+    margin: 32px 0;
+}
+.input-boxLogin label{
+    position: absolute;
+    top: 50%;
+    left: 6px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    transition: all ease .4s;
+}
+.input-boxLogin input{
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+    padding: 0 30px 0 6px;
+    }
+ .input-boxLogin .iconLogin{
+        position: absolute;
+        right: 9px;
+        font-size: 20px;
+        color: #fff;
+        line-height: 55px;
+    }
+.input-boxLogin input:focus~label,
+.input-boxLogin input:valid~label{
+        top: -3px;
+
+    }
+    .checkLogin{
+        color: #fff;
+        font-size: 15px;
+        font-weight: 500;
+        margin: -10px 0 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .checkLogin label input{
+        vertical-align: middle;
+        margin-right: 6px;
+        accent-color: #fff;
+    }
+    .checkLogin a{
+        color: #fff;
+
+    }
+    .checkLogin a:hover{
+        text-decoration: underline;
+    }
+     .btnLogin{
+        width: 100%;
+        height: 45px;
+        background: #fff;
+        border-radius: 30px;
+        font-size: 17px;
+        font-weight: 600;
+        color: #000;
+        margin-top: 10px;
+        cursor: pointer;
+
+     }
